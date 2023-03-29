@@ -1,0 +1,24 @@
+  a {
+    background-color: #0c6bc4; /* cor de fundo */
+    border: none; /* sem borda */
+    color: white; /* cor do texto */
+    padding: 12px 24px; /* preenchimento interno */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* sem decoração de texto */
+    display: inline-block; /* exibição como bloco inline */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem externa */
+    cursor: pointer; /* cursor de mouse */
+    border-radius: 8px; /* borda arredondada */
+  }
+  
+  a:hover {
+    background-color: #0084ff; /* cor de fundo ao passar o m ouse */
+  }
+  
+  a:active {
+    background-color: #0084ff; /* cor de fundo ao clicar */
+  }
+  
+  
+  
