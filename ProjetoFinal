@@ -35,6 +35,7 @@ void limparTela() {
 void aguardarEnter() {
   printf("\nPressione Enter para continuar...");
   getchar();
+  getchar();
 }
 
 void adicionarProduto() {
