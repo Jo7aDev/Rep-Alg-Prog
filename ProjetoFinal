@@ -35,7 +35,6 @@ void limparTela() {
 void aguardarEnter() {
   printf("\nPressione Enter para continuar...");
   getchar();
-  getchar(); // Limpa o buffer do teclado
 }
 
 void adicionarProduto() {
@@ -68,7 +67,7 @@ void adicionarProduto() {
   novoProduto.lucro = novoProduto.valorVenda - novoProduto.valorCompra;
   novoProduto.percentualLucro = (novoProduto.lucro / novoProduto.valorCompra) * 100;
 
-  getchar(); // Limpa o buffer do teclado
+  getchar();
 
   printf("Digite a marca do produto: ");
   fgets(novoProduto.fabricante, 50, stdin);
